@@ -12,6 +12,7 @@
 ## The real stuff.
 1.Php,Angular js,node
 2.Takes a number and returns an array of its digits:
+	<?php
     function ConvertToArray($num)
     {
       $MyArray = [];
@@ -23,7 +24,7 @@
 	  print_r($MyArray);die; 
 	}
 	ConvertToArray("123456");
-
+	?>
 3.translates a text to Pig Latin and back(“Join with yellowfish” => “oinjay ithway ellowfishyay”).
     <?php
 	function isVowel($c)
