@@ -1,13 +1,13 @@
 ## About Me.
 
-1. Im Anjana Sivadas from Ernakulam. Im a Junior PHP Developer with 1.3 years of experience from iROID Technologies Kochin. I've hands on experience in HTML, CSS, JS, Jquery, Ajax, Bootstrap and MySQL. And Im also familiar with using git.
+Im Anjana Sivadas from Ernakulam. Im a Junior PHP Developer with 1.3 years of experience from iROID Technologies Kochin. I've hands on experience in HTML, CSS, JS, Jquery, Ajax, Bootstrap and MySQL. And Im also familiar with using git.
 
 During my time with iROID, I've worked on multi-vendor Ecommerce Web and API development which was on Laravel 8. And also have experience in using third party platforms and API integrations such as Shiprocket API integration, Instashipin API integration, Sendgrid mail integration, MSG91 sms integration etc.
 
 Now I'm looking for a more productive role that suit my skills and ability to grow further.
 Im a quick learner and ready to take new challenges to improve my skills and knowledge.
 
-2. Im using Windows 10 OS and I'm also familiar with Linux. Using Visual Studio Code as IDE.
+Im using Windows 10 OS and I'm also familiar with Linux. Using Visual Studio Code as IDE.
 
 ## Social Profile
 1. https://github.com/AJ-143
