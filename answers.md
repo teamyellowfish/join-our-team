@@ -60,3 +60,33 @@ Im using Windows 10 OS and I'm also familiar with Linux. Using Visual Studio Cod
 
     <!-- Output: Text to Pig Latin : ellowYay ishFay Pig Latin to Text : Yellow Fish-->
 
+4. <?php
+
+        function rotateArray($array, $k){
+            for ($i = 1; $i <= $k; $i++){  
+                $first = $array[0];  
+                for($j = 0; $j < count($array)-1; $j++){  
+                    $array[$j] = $array[$j+1];  
+                }  
+                $array[$j] = $first;  
+            }  
+            print("<br>");
+            print("Array after rotation: ");  
+            for ($i = 0; $i < count($array); $i++) {   
+                print($array[$i] . " ");   
+            } 
+        }
+
+        $array = array(1, 2, 3, 4, 5, 6); 
+        $k=2;
+        print("Array before rotation: ");  
+        for ($i = 0; $i < count($array); $i++) {   
+            print($array[$i] . " ");   
+        } 
+        
+        $rotateArray = rotateArray($array, $k);
+
+    ?>
+
+<!-- Output:    Array before rotation: 1 2 3 4 5 6
+                Array after rotation: 3 4 5 6 1 2       -->
