@@ -31,7 +31,7 @@
 
  
  3. 
- <?php
+ 
    function pigLatin($string){
       $words = explode(' ', $string);
       $newString = implode(' ', array_map(function($i) {
@@ -45,9 +45,9 @@
    }
 
    echo pigLatin("join with yellowfish");
-?>
+
  4. 
- <?php
+ 
 	function array_rotate_by_k($array, $k) {     
 		for($i=0;$i<$k;$i++){
 			$firstElement = array_shift($array);
@@ -60,7 +60,7 @@
 	$k = 2;
 	$out = array_rotate_by_k($array, $k);
 	print_r($out);
-?>
+
  5. 
  https://github.com/anjuashokkumar/Shorten_Url
  
