@@ -11,22 +11,16 @@
  1. php
  2. 
  
-
    function arrayfn($num){
-
       $number = (string) $num;
       $arr = [];
       for ($i = 0; $i < strlen($number); $i++) {
-
-            if ($number[$i] != " ") { 
-            $arr[] = $number[$i]; 
-            }        
-
+         if ($number[$i] != " ") { 
+         $arr[] = $number[$i]; 
+         }        
       }
       print_r($arr); 
-
    }
-
    arrayfn(2606);
 
  
