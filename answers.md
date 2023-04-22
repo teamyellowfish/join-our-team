@@ -11,7 +11,7 @@
  1. php
  2. 
  
-   function arrayfn($num){
+   function arrayfn($num) {
       $number = (string) $num;
       $arr = [];
       for ($i = 0; $i < strlen($number); $i++) {
@@ -22,11 +22,10 @@
       print_r($arr); 
    }
    arrayfn(2606);
-
  
  3. 
  
-   function pigLatin($string){
+   function pigLatin($string) {
       $words = explode(' ', $string);
       $newString = implode(' ', array_map(function($i) {
          $first=substr($i,0,1);
@@ -34,10 +33,8 @@
          $end="ay";
          return $word_minus.$first.$end;
       }, $words));
-
       return $newString;	
    }
-
    echo pigLatin("join with yellowfish");
 
  4. 
