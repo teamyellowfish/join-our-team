@@ -10,7 +10,7 @@
 ## The real stuff.
  1. php
  2. 
- <?php
+ 
 
    function arrayfn($num){
 
@@ -29,7 +29,7 @@
 
    arrayfn(2606);
 
- ?>
+ 
  3. 
  <?php
    function pigLatin($string){
