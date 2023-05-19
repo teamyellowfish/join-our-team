@@ -14,5 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('auth.login');
 });
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
+Route::get('/url_shortner', [App\Http\Controllers\HomeController::class, 'url_shortner'])->name('url_shortner');
+Route::post('/submit_url', [App\Http\Controllers\HomeController::class, 'submit_url'])->name('submit_url');
+Route::get('/{shorturl}', [App\Http\Controllers\HomeController::class, 'redirecttosite'])->name('redirecttosite');
