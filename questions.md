@@ -29,7 +29,7 @@
           4. Refer [Features section](#features-for-the-erp-system) for other details.
       
     2. Option 2 - __Create a URL shortener using Laravel__
-       1. Refer [Bitly](https://bitly.com).
+       1. Refer <a href="https://bitly.com" target="_blank">Bitly</a>.
        2. Add 1 snapshot card in the dashboard to show the total URL count.
        3. Page to view all URLs shortened with the add form on top to shorten new URLs.
        4. Need to validate the URLs properly.
@@ -40,7 +40,7 @@
        9. Refer [Features section](#features-for-the-erp-system) for other details.
     
      #### Features for the ERP system:
-     1. Use [AdminLTE template](https://adminlte.io/themes/v3/) or you can use any other template.
+     1. Use <a href="https://adminlte.io/themes/v3/" target="_blank">AdminLTE template</a> or you can use any other template.
      2. Sign Up (Must use Laravel Auth).
      3. Sign In (Must use Laravel Auth).
      4. User log out (Must use Laravel Auth).
