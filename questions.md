@@ -26,7 +26,7 @@
           3. Provide filters in the **Users** list without reloading the entire page based on:-
              1. Designations
              2. User statuses
-          4. Refer [Features section](features-for-the-erp-system) for other details.
+          4. Refer [Features section](#features-for-the-erp-system) for other details.
       
     2. Option 2 - __Create a URL shortener using Laravel__
        1. Refer [Bitly](https://bitly.com).
@@ -37,7 +37,7 @@
        6. Fields need to be captured when shorten URLs are Title and URL.
        7. Fields that need to be listed in the table are Title, URL, Short URL and Created Date and need a button to copy the short URL against each row.
        8. Do not use any API to shorten the URL.
-       9. Refer [Features section](features-for-the-erp-system) for other details.
+       9. Refer [Features section](#features-for-the-erp-system) for other details.
     
      ### Features for the ERP system:
      1. Use [AdminLTE template](https://adminlte.io/themes/v3/) or you can use any other template.
