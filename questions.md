@@ -39,7 +39,7 @@
        8. Do not use any API to shorten the URL.
        9. Refer [Features section](#features-for-the-erp-system) for other details.
     
-     ### Features for the ERP system:
+     #### Features for the ERP system:
      1. Use [AdminLTE template](https://adminlte.io/themes/v3/) or you can use any other template.
      2. Sign Up (Must use Laravel Auth).
      3. Sign In (Must use Laravel Auth).
@@ -51,6 +51,6 @@
      9. If possible host the project in any cloud hosting and include the URL in the readme.md file of the repository.
      10. Include any future enhancement that you like to do for the app in the readme.md file (if any).
     
-Note: It is mandatory that you answer all the questions starting with a __*__. You may leave others behind and
-create a PR. However maximum questions will earn you maximum points. It is advised that you answer
-all the puzzles in the language that you are applying for.
+> Note: It is mandatory that you answer all the questions starting with a __*__. You may leave others behind and create a PR. However, maximum questions will earn you maximum points.
+> 
+> It is advised that you answer all the puzzles in the language that you are applying for.
